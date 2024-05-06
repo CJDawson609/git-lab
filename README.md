@@ -1,6 +1,5 @@
 ## CS 2400, Git/GitHub
 
-### 100 Points
 
 ### Prepared by: Nasseef Abukamail (abukamai@ohio.edu)
 
@@ -307,14 +306,7 @@ The `git clone` command downloads an existing repository to your local machine. 
     * Add `README.md` to the staging area
     * Add `answers.md` to the staging area
      * Commit and push your changes to GitHub
-    * Go to your repository on GitHub and tag your TA `@<TA's user name>` in the comment section of the commit.
-      * Click on `commits`
-      * Click on the last commit (top one)
-      * Ask your TA for their GitHub user name and use it in the next step
-      * Scroll down to the comment section and tag your TA by entering `@TA-USER-NAME, I'm done`
-      * Click on the button: `Comment on this commit`
-
-
+  
     **I encourage you to learn more about Git. It is an essential tool for every computer science professional.**
 ---
 

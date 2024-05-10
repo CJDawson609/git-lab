@@ -19,7 +19,7 @@ Git is a free and open source tool (collection of commands) that is used for ver
 
 ---
 
-## Lab Assignment
+## Assignment
 
 ### Requirement
 
@@ -38,7 +38,7 @@ Make sure you have a GitHub account, and your [Personal Access Token has been se
 
 2. Create two empty (Markdown files) `README.md` and `answers.md`. Markdown is similar to html but much simpler. Search online for a quick reference. Record all your answers for this lab in `answers.md`.
 
-    - For Mac/Linux/WSL issue the commands:
+    - For WSL/Mac/Linux issue the commands:
      
        ```console
        touch README.md
@@ -219,7 +219,7 @@ Make sure you have a GitHub account, and your [Personal Access Token has been se
     ```
     > You may have to enter your GitHub credentials (token) here.
 
-10. Open your browser and go to GitHub. Update `README.md` on GitHub by clicking on `README.md` and then clicking on the edit button. Add your class information. For example, `CS 2400, Section 107`. At the bottom add a commit message and commit your changes.
+10. Open your browser and go to GitHub. Update `README.md` on GitHub by clicking on `README.md` and then clicking on the edit button. Add your class information. For example, `CS 2400, Section 100`. At the bottom add a commit message and commit your changes.
 
 11. Open a terminal window and look at `README.md` in your local directory. Were the changes you made online reflected in your local copy? Record your answer as **`Answer 10`**.
 

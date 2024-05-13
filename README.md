@@ -219,7 +219,7 @@ Make sure you have a GitHub account, and your [Personal Access Token has been se
     ```
     > You may have to enter your GitHub credentials (token) here.
 
-10. Open your browser and go to GitHub. Update `README.md` on GitHub by clicking on `README.md` and then clicking on the edit button. Add your class information. For example, `CS 2400, Section 100`. At the bottom add a commit message and commit your changes.
+10. Open your browser and go to GitHub. Update `README.md` on GitHub by clicking on `README.md` and then clicking on the edit button. Add your class information. For example, `CS 2400, Section 100`. Click `Commit changes`, type the commit message `Added class information`, then click `Commit changes`. 
 
 11. Open a terminal window and look at `README.md` in your local directory. Were the changes you made online reflected in your local copy? Record your answer as **`Answer 10`**.
 
@@ -244,12 +244,12 @@ The `git clone` command downloads an existing repository to your local machine. 
     * Create a new repository
       * Name your repository `git-lab-2`
       * Select `Public`
-      * Check `Initialize this repository with a README`
-      * click on `Add .gitignore: None` button and select `C++`
+      * Check `Add a README`
+      * Click on `Add .gitignore: None` button and select `C++`
       * Click `Create repository` button
 
-    * click on the clone button and copy the link
-    * Open a terminal window and go to your 2400 directory and clone the repository. You will normally do this for most homework projects.
+    * Click on the `<> Code` button and copy the link
+    * Open a terminal window, if it's not opened already, and go to your 2400 directory and clone the repository. You will normally do this for most homework projects.
         ```console
         cd ~/2400 
         git clone <link you copied above>

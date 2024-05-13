@@ -297,7 +297,8 @@ The `git clone` command downloads an existing repository to your local machine. 
     * Did you get the right output? If not, fix your program and try again
     * Add, commit, and push your changes to GitHub (See Workflow above)
     * Go to your repository on GitHub
-    * Are the changes you made reflected online? If not, try again or ask your TA.
+    * Are the changes you made reflected online? If not, make sure you did not miss any of the steps.
+  
 * **Last Steps:**
 
     * Go to the `git-lab` directory

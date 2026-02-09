@@ -1,4 +1,5 @@
 ## CS 2400, Git/GitHub
+CS 2400 Section 100
 
 
 ### Prepared by: Nasseef Abukamail (abukamai@ohio.edu)

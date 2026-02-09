@@ -59,7 +59,7 @@ Make sure you have a GitHub account, and your [Personal Access Token has been se
     ```console
     git --version
     ```
-    Record the output of the command as **`Answer 1`**.
+    Record the output of the command as **`git version 2.43.0`**.
 
 4. Git needs to know your credentials (name and email). Issue the commands:
 
@@ -73,7 +73,8 @@ Make sure you have a GitHub account, and your [Personal Access Token has been se
     git config --list
     ```
 
-    Record the output of this command as **`Answer 2`**.
+    Record the output of this command as **`user.email=cd648426@ohio.edu
+user.name=Clarence Dawson`**.
 
 5. Git includes a comprehensive help system. You can invoke help by issuing the following command
 
@@ -86,7 +87,7 @@ Make sure you have a GitHub account, and your [Personal Access Token has been se
     git add --help
     ```
 
-    What happens when you type `git --help`? Record your answer as **`Answer 3`**.
+    What happens when you type `git --help`? Record your answer as **`Shows me possbile commands I can do`**.
 
 ---
 **Creating and maintaining a repository**
@@ -135,7 +136,8 @@ Make sure you have a GitHub account, and your [Personal Access Token has been se
 
     One of the common commands we use is to check the status of our repo is the `git status` command.
 
-    Type the status command inside the `git-lab` directory and record the output of this command as **`Answer 4`**.
+    Type the status command inside the `git-lab` directory and record the output of this command as **`README.md
+        answers.md`**.
 
     You now have an untracked file in your working area. Let's track the file by staging it. Issue the command:
 
@@ -143,7 +145,7 @@ Make sure you have a GitHub account, and your [Personal Access Token has been se
     git add README.md
     ```
 
-    Check the status of your project and record the output of the command as your answer to **`Answer 5`**.
+    Check the status of your project and record the output of the command as your answer to **`new file:   README.md`**.
 
     Did you notice the different file name colors in the two status command? Add the second file `answers.md` to the staging area.
 
@@ -157,7 +159,7 @@ Make sure you have a GitHub account, and your [Personal Access Token has been se
 
     Messages in the commit command is very important. It describes what has happened since the last commit. It is specially helpful when working with teammates on the same project.
 
-    Issue the status command again and record your output as **`Answer 7`**.
+    Issue the status command again and record your output as **`   answers.md`**.
 
     The above workflow outlines the steps that you usually take to create a commit (snapshot) of your repository at any given time.
 
@@ -172,7 +174,10 @@ Make sure you have a GitHub account, and your [Personal Access Token has been se
     * `HEAD->master`: a pointer to a repository called `master`. `master` is your main repository `branch` name. More on branching later.
     * Author, email, date, and comment made while committing.
 
-    Record the output of the `git log` as **`Answer 8`**.
+    Record the output of the `git log` as **commit d7d7fa1f131519ed5d680fc25abf8cdf5f6cdfba (HEAD -> master)
+Author: Clarence Dawson <cd648426@ohio.edu>
+Date:   Mon Feb 9 17:00:21 2026 -0500
+`**.
 
 ---
 **Working with remote repositories on GitHub**

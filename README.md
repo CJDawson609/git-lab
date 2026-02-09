@@ -60,7 +60,7 @@ Make sure you have a GitHub account, and your [Personal Access Token has been se
     ```console
     git --version
     ```
-    Record the output of the command as **`Answer 1`**.
+    Record the output of the command as **`git version 2.43.0`**.
 
 4. Git needs to know your credentials (name and email). Issue the commands:
 
@@ -74,7 +74,7 @@ Make sure you have a GitHub account, and your [Personal Access Token has been se
     git config --list
     ```
 
-    Record the output of this command as **`Answer 2`**.
+    Record the output of this command as **`email = cd648426@ohio.edu, usernmae = Clarence Dawson`**.
 
 5. Git includes a comprehensive help system. You can invoke help by issuing the following command
 
@@ -87,7 +87,7 @@ Make sure you have a GitHub account, and your [Personal Access Token has been se
     git add --help
     ```
 
-    What happens when you type `git --help`? Record your answer as **`Answer 3`**.
+    What happens when you type `git --help`? Record your answer as **`Shows me possible commands I can do`**.
 
 ---
 **Creating and maintaining a repository**
@@ -136,7 +136,7 @@ Make sure you have a GitHub account, and your [Personal Access Token has been se
 
     One of the common commands we use is to check the status of our repo is the `git status` command.
 
-    Type the status command inside the `git-lab` directory and record the output of this command as **`Answer 4`**.
+    Type the status command inside the `git-lab` directory and record the output of this command as **`README.md, answers.md`**.
 
     You now have an untracked file in your working area. Let's track the file by staging it. Issue the command:
 
@@ -144,7 +144,7 @@ Make sure you have a GitHub account, and your [Personal Access Token has been se
     git add README.md
     ```
 
-    Check the status of your project and record the output of the command as your answer to **`Answer 5`**.
+    Check the status of your project and record the output of the command as your answer to **`new file: README.md `**.
 
     Did you notice the different file name colors in the two status command? Add the second file `answers.md` to the staging area.
 
@@ -158,7 +158,7 @@ Make sure you have a GitHub account, and your [Personal Access Token has been se
 
     Messages in the commit command is very important. It describes what has happened since the last commit. It is specially helpful when working with teammates on the same project.
 
-    Issue the status command again and record your output as **`Answer 7`**.
+    Issue the status command again and record your output as **`answers.md`**.
 
     The above workflow outlines the steps that you usually take to create a commit (snapshot) of your repository at any given time.
 
@@ -173,7 +173,10 @@ Make sure you have a GitHub account, and your [Personal Access Token has been se
     * `HEAD->master`: a pointer to a repository called `master`. `master` is your main repository `branch` name. More on branching later.
     * Author, email, date, and comment made while committing.
 
-    Record the output of the `git log` as **`Answer 8`**.
+    Record the output of the `git log` as **`**commit d7d7fa1f131519ed5d680fc25abf8cdf5f6cdfba (HEAD -> master)
+Author: Clarence Dawson <cd648426@ohio.edu>
+Date:   Mon Feb 9 17:00:21 2026 -0500
+`**.
 
 ---
 **Working with remote repositories on GitHub**
@@ -222,9 +225,9 @@ Make sure you have a GitHub account, and your [Personal Access Token has been se
 
 10. Open your browser and go to GitHub. Update `README.md` on GitHub by clicking on `README.md` and then clicking on the edit button. Add your class information. For example, `CS 2400, Section 100`. Click `Commit changes`, type the commit message `Added class information`, then click `Commit changes`. 
 
-11. Open a terminal window and look at `README.md` in your local directory. Were the changes you made online reflected in your local copy? Record your answer as **`Answer 10`**.
+11. Open a terminal window and look at `README.md` in your local directory. Were the changes you made online reflected in your local copy? Record your answer as **`No`**.
 
-12. Try the push command again `git push`. What happens? Record your answer as **`Answer 11`**.
+12. Try the push command again `git push`. What happens? Record your answer as **`Doesnt let me `**.
 
 13. Open the terminal window and `pull` your remote changes to your local repository. This is what you would normally do when the online version of your repo changes while you're working on your local one. Issue the command:
 
@@ -232,7 +235,7 @@ Make sure you have a GitHub account, and your [Personal Access Token has been se
     git pull
     ```
 
-Look at `README.md` in your local directory. Were the changes you made online reflected in your local copy? Record your answer to **`Answer 12`**.
+Look at `README.md` in your local directory. Were the changes you made online reflected in your local copy? Record your answer to **`No`**.
 
 ---
 **Cloning a Repository**
@@ -256,7 +259,7 @@ The `git clone` command downloads an existing repository to your local machine. 
         git clone <link you copied above>
         ```
     * This should download the repository directory to you machine. The directory should be called `git-lab-2`.
-    * Go to the new repo's directory and issue the `ls -a` command. Record the output as **`Answer 13`**.
+    * Go to the new repo's directory and issue the `ls -a` command. Record the output as **`.  ..  .git  .gitignore  README.md`**.
     * The file `.gitignore` has a list of files that `git` will ignore when pushing the repo. For example, it ignores executable files.
 
 15. (35 points) Lets create a C++ program in `git-lab2` repository and update the online main branch.
